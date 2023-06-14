@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Form 3</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+<style>
+div{
+    display: flex;
+    /* justify-content: space-around; */
+    justify-content: center;
+    
+}
+.child1{
+ background-color: rgb(235,236,240);
+ width: 750px;
+ height: 525px;
+}
+form{
+    padding-left: 22px;
+}
+#email{
+    padding-left: 188px;
+}
+#heading{
+    font-size: x-large;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+label{
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* padding: 50px; */
+}
+input{
+    border: none;
+    height: 45px;
+    /* padding-left: 10px; */
+    /* margin: 10px 10px; */
+}
+button{
+    color: white;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(53,83,168);
+    padding: 12px 18px;
+    border-radius: 5px;
+}
+#footer{
+    width: 1200px;
+    display: flex;
+    /* flex-direction: row; */
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 142px;
+}
+p{
+    font-size: 18px;
+    text-decoration: none; 
+}
+i{
+    font-size: x-large;
+}
+a{ text-decoration: none; color: black;}
+</style>
+</head>
+<body style="background-color: white;">
+<h1 align="center">Contact Form #03</h1>
+<!-- MAIN DIV START -->
+<div>
+<!-- Div1 Form -->
+<div class="child1">
+<form action="" >
+<p id="heading">Contact Us</p>
+<label for="fullname">FULL NAME</label>  <label for="email" id="email">EMAIL ADDRESS</label> <br> 
+<input type="text" placeholder="Name" size="37" required>
+
+<input type="email" placeholder="Email" required id="mail" size="36"> <br> <br>
+<label for="subject">SUBJECT</label> <br> 
+<input type="text" placeholder="Subject" size="79px">  <br> <br>
+<label for="message">MESSAGE</label> <br>
+<textarea name="Message" placeholder=" Message" id="" cols="74" rows="9" style="border: none; resize: none;">
+</textarea> <br> <br>
+<button name="SendMessage">Send Message</button>
+</form>
+</div>
+<!-- Div 2 iframe -->
+<div class="child2">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15220.162064645885!2d78.41834594999999!3d17.50557925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1686501624752!5m2!1sen!2sin" width="450px" height="525px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+</div>
+<!-- MAIN DIV END -->
+
+<div id="footer">
+
+<i class="bi bi-geo-alt-fill">
+<p>Address : Road No.18, 4-45-166, Srinivasa Nagar, <br>
+J.Giri Gutta, Hyderabad, Telangana 500037</p></i> 
+<i class="bi bi-telephone-fill">
+<p><a href="tel:+917989977909">Phone: +917989977909</a></p></i>
+<i class="bi bi-telegram">
+<p><a href="mailto:shubhamyadav2102000@gmail.com">Email : shubhamyadav2102000@gmail.com</a></p></i>
+<i class="bi bi-globe-americas"> 
+<p>Website : MyWebsite.com</p></i>
+
+</div>
+
+</body>
+</html>
